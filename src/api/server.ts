@@ -41,6 +41,7 @@ export const server_calls = {
                 'Content-Type': 'application/json',
                 'x-access-token': `Bearer ${token}`
             },
+            
             body: JSON.stringify(data)
         });
     },

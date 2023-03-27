@@ -28,7 +28,7 @@ import { Drawer as MUIDrawer,
     import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
     import ChevronRightIcon from '@material-ui/icons/ChevronRight'
     import clsx from 'clsx';
-    import { RouteComponentProps, withRouter, Switch, Route } from 'react-router-dom';
+    import { RouteComponentProps, withRouter } from 'react-router-dom';
     import { DataTable } from '../../components/DataTable';
     import { CarForm } from '../CarForm';
 
