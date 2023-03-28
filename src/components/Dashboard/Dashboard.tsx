@@ -175,6 +175,7 @@ export const Dashboard = withRouter((props:DashboardProps) => {
     };
 
     const itemsList = [
+        
         {
             text: 'Home',
             onClick: () => history.push('/')
